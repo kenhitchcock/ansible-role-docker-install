@@ -1,9 +1,14 @@
 ---
 
-- name: "Open Firewall for Role." 
+- name: "Check if firewalld package is installed"
+  package_facts:
+    manager: "auto"
+
+- name: "Open Firewall for Role if Firewalld package installed." 
   firewalld:
     port: "{{ item }}"
     permanent: yes
     state: enabled
     immediate: yes
   with_items: "{{ rh_ports }}"
+  when: "'firewalld' in ansible_facts.packages"
