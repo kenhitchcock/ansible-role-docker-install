@@ -1,25 +1,21 @@
 Role Name
 =========
 
-> Quay install and configuration.
+> Docker install and configuration.
 
-Installs Quay.
+Installs Docker.
 
 Requirements
 ------------
 
-Registration with Red Hat. 
-  github.com/kenhitchcock/ansible-role-redhat-register.git
-
-Docker installed.
-  github.com/kenhitchcock/ansible-role-docker-install
+Registration with Red Hat. Can you my role ansible-role-redhat-register
 
 Role Variables
 --------------
 
 Available variables are listed below, along with default values (see defaults/main.yml):
 
-    # More to follow. 
+    # None yet. 
 
 Future Releases
 ---------------

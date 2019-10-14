@@ -1,7 +1,7 @@
 galaxy_info:
-  role_name: quay-install 
+  role_name: docker-install 
   author: Ken Hitchcock
-  description: Install Quay
+  description: Install Docker
   company: None
 
   # If the issue tracker for your role is not on github, uncomment the
